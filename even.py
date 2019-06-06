@@ -1,8 +1,8 @@
-num=int(input("enter any number:"))
-flag=num%2
-if flag==0:
-    print(num,"is an even number")
-elif flag==1:
-    print(num,"isan odd number")
+num = int(input("Enter any number: "))
+if num>0:
+    if num%2==0:
+        print("no is even")
+    elif num%2!=0:
+        print("no is odd")
 else:
-    print("invalid input")
+    print("no is invalid")
