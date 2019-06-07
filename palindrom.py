@@ -1,5 +1,5 @@
 n=int(input())
-a=n%11
+a=n%111
 if a==o:
 print("yes")
 else:
