@@ -1,12 +1,6 @@
-num = int(input("Enter value n: "))
-hold = num
-sum = 0
-
-if num <= 0: 
-   print("Enter a whole positive number!") 
-else: 
-   while num > 0:
-        sum = sum + num
-        num = num - 1;
-    # displaying output
-    print("Sum of first", hold, "natural numbers is: ", sum)
+n=int(input("Enter value of n: "))
+sum1 = 0
+while(n > 0):
+    sum1=sum1+n
+    n=n-1
+print("The sum of first n natural numbers is",sum1)
