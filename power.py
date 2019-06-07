@@ -1,4 +1,4 @@
 a=int(input())
-b=int(input())
-sum=a**b
+j=int(input())
+sum=a**j
 print(sum)
