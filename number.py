@@ -6,5 +6,5 @@ if (num1 > num2) and (num1 > num3):
 elif (num2 > num1) and (num2 > num3):
    large = num2
 else:
-   largest = num3 
+   large = num3 
 print("The largest number is",largest)
