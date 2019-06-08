@@ -1,7 +1,7 @@
-num=float(inout("enter the nember"))
+num=float(input())
 if num>0:
-print("positive number")
+print("positive")
 elif num==0:
 print("zero")
 else:
-print("negative number")
+print("negative")
