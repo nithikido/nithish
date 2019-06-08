@@ -1,8 +1,8 @@
-num = int(input("Enter any number: "))
+num = int(input())
 if num>0:
     if num%2==0:
-        print("no is even")
+        print("even")
     elif num%2!=0:
-        print("no is odd")
+        print("odd")
 else:
-    print("no is invalid")
+    print("invalid")
